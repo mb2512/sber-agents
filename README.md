@@ -1,3 +1,4 @@
+markdown
 # Sber Agents | Банковский ИИ-ассистент
 
 [![Статус курса](https://img.shields.io/badge/Курс-AI--driven%20разработка%20ИИ--агентов-blue)](https://github.com/aidialogs/sber-agents)
@@ -55,6 +56,8 @@ sber-agents/
 ├── module_11/ # Папка для заданий модуля М11
 ├── module_12/ # Папка для заданий модуля М12
 └── final_project/ # Папка для финального проекта
+
+text
 
 *Папки будут создаваться по мере выполнения заданий.*
 
