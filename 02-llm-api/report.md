@@ -56,5 +56,7 @@ def add_message(self, role: str, content: str):
         # Сохраняем системный промпт + последние сообщения
         system_prompt = self.conversation_history[0]
         self.conversation_history = [system_prompt] + self.conversation_history[-(MAX_MESSAGES-1):]
+```
+
 
 ![Скриншот статистики](screenshots/stats(limit10).png)
