@@ -1,0 +1,14 @@
+[telegram]
+# Telegram Bot API token
+# (For local dev; prefer env vars in CI/CD)
+token = "7854146507:AAHe76po58T-gyAh-y9HsqQOx3ahR2KCDIM"
+
+[openrouter]
+# OpenRouter API key (use your own key)
+api_key = "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"
+# Preferred model; leave empty to auto-pick free models
+model = "mistralai/mistral-7b-instruct:free"
+
+[guide]
+# Optional override for system prompt
+system_prompt = ""

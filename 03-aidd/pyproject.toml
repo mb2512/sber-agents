@@ -1,0 +1,17 @@
+[project]
+name = "aidd-bot"
+version = "0.1.0"
+requires-python = ">=3.10,<3.13"
+description = "Minimal Telegram LLM assistant bot (MVP)"
+readme = "README.md"
+dependencies = [
+    "aiogram==3.13.1",
+    "aiohttp==3.9.5",
+    "openai>=1.47.0,<2",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
